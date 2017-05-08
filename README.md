@@ -1,2 +1,2 @@
-# PythonLearning
-Python Learning thnaks to PyCharm Edu
+# Python Learning
+Python Learning thanks to PyCharm Edu
