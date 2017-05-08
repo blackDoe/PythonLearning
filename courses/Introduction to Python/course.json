@@ -1,0 +1,1731 @@
+{
+  "lessons": [
+    {
+      "id": 13416,
+      "update_date": "Aug 3, 2016 11:05:43 AM",
+      "title": "Introduction",
+      "task_list": [
+        {
+          "name": "Our first program",
+          "stepic_id": 98626,
+          "task_files": {
+            "hello_world.py": {
+              "name": "hello_world.py",
+              "text": "print(\"Hello, world! My name is type your name\")\n",
+              "placeholders": [
+                {
+                  "offset": 32,
+                  "length": 14,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Type your name here."
+                      ],
+                      "possible_answer": "Liana",
+                      "placeholder_text": "type your name",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:05:13 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Comments",
+          "stepic_id": 98627,
+          "task_files": {
+            "comments.py": {
+              "name": "comments.py",
+              "text": "# This is the comment for the comments.py file\nprint(\"Hello!\")  # this comment is for the second line\n\nprint(\"# this is not a comment\")\n# add new comment here\n",
+              "placeholders": [
+                {
+                  "offset": 138,
+                  "length": 20,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Type your new comment here."
+                      ],
+                      "possible_answer": "new comment",
+                      "placeholder_text": "add new comment here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:05:43 AM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13417,
+      "update_date": "Aug 3, 2016 11:14:50 AM",
+      "title": "Variables",
+      "task_list": [
+        {
+          "name": "Variable definition",
+          "stepic_id": 98628,
+          "task_files": {
+            "variable_definition.py": {
+              "name": "variable_definition.py",
+              "text": "a \u003d b \u003d 2  # This is called a \"chained assignment\". It assigns the value 2 to variables \"a\" and \"b\".\nprint(\"a \u003d \" + str(a))   # We\u0027ll explain the expression str(a) later in the course. For now it is used to convert the  variable \"a\" to a string.\nprint(\"b \u003d \" + str(b))\n\ngreetings \u003d \"greetings\"\nprint(\"greetings \u003d \" + str(greetings))\ngreetings \u003d another value\nprint(\"greetings \u003d \" + str(greetings))\n",
+              "placeholders": [
+                {
+                  "offset": 345,
+                  "length": 13,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Type value here."
+                      ],
+                      "possible_answer": "5",
+                      "placeholder_text": "another value",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:07:43 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Undefined variable",
+          "stepic_id": 98629,
+          "task_files": {
+            "undefined_variable.py": {
+              "name": "undefined_variable.py",
+              "text": "variable \u003d 1\nprint(other variable)\n",
+              "placeholders": [
+                {
+                  "offset": 19,
+                  "length": 14,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Type the name of an undefined variable here. Note that variable names must start with a letter and may contain letters, \u0027_\u0027 and/or numbers."
+                      ],
+                      "possible_answer": "other_variable",
+                      "placeholder_text": "other variable",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Apr 11, 2016 3:28:00 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Variable types",
+          "stepic_id": 98630,
+          "task_files": {
+            "variable_type.py": {
+              "name": "variable_type.py",
+              "text": "number \u003d 9\nprint(type(number))   # print type of variable \"number\"\n\nfloat_number \u003d 9.0\nprint(float_number type)\n",
+              "placeholders": [
+                {
+                  "offset": 93,
+                  "length": 17,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Look how we found the \"number\" type on line 2 and do the same to float_number."
+                      ],
+                      "possible_answer": "type(float_number)",
+                      "placeholder_text": "float_number type",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:09:37 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Type conversion",
+          "stepic_id": 98631,
+          "task_files": {
+            "type_cast.py": {
+              "name": "type_cast.py",
+              "text": "number \u003d 9\nprint(type(number))   # print type of variable \"number\"\n\nfloat_number \u003d 9.0\nprint(float_number)\nprint(Convert float_number to integer)\n",
+              "placeholders": [
+                {
+                  "offset": 113,
+                  "length": 31,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use int() function."
+                      ],
+                      "possible_answer": "int(float_number)",
+                      "placeholder_text": "Convert float_number to integer",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:10:51 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Arithmetic operators",
+          "stepic_id": 98632,
+          "task_files": {
+            "arithmetic_operators.py": {
+              "name": "arithmetic_operators.py",
+              "text": "number \u003d 9.0        # float number\n\nresult \u003d divide \u0027number\u0027 by two\n\nremainder \u003d calculate the remainder\n\nprint(\"result \u003d \" + str(result))\nprint(\"remainder \u003d \" + str(remainder))\n",
+              "placeholders": [
+                {
+                  "offset": 45,
+                  "length": 22,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use / operator."
+                      ],
+                      "possible_answer": "number / 2",
+                      "placeholder_text": "divide \u0027number\u0027 by two",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 81,
+                  "length": 23,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use % operator."
+                      ],
+                      "possible_answer": "number % 2",
+                      "placeholder_text": "calculate the remainder",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:12:09 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Assignments",
+          "stepic_id": 98633,
+          "task_files": {
+            "assignments.py": {
+              "name": "assignments.py",
+              "text": "number \u003d 9.0\nprint(\"number \u003d \" + str(number))\n\nnumber -\u003d 2\nprint(\"number \u003d \" + str(number))\n\nnumber operator 5\n\nprint(\"number \u003d \" + str(number))\n",
+              "placeholders": [
+                {
+                  "offset": 100,
+                  "length": 8,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use +\u003d operator."
+                      ],
+                      "possible_answer": "+\u003d",
+                      "placeholder_text": "operator",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:12:50 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Boolean operators",
+          "stepic_id": 98634,
+          "task_files": {
+            "boolean_operators.py": {
+              "name": "boolean_operators.py",
+              "text": "two \u003d 2\nthree \u003d 3\n\nis_equal \u003d two operator three\n\nprint(is_equal)\n",
+              "placeholders": [
+                {
+                  "offset": 34,
+                  "length": 8,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u003d\u003d operator."
+                      ],
+                      "possible_answer": "\u003d\u003d",
+                      "placeholder_text": "operator",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:13:39 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Comparison operators",
+          "stepic_id": 98635,
+          "task_files": {
+            "comparison_operators.py": {
+              "name": "comparison_operators.py",
+              "text": "one \u003d 1\ntwo \u003d 2\nthree \u003d 3\n\nprint(one \u003c two \u003c three)  # This chained comparison means that the (one \u003c two) and (two \u003c three) comparisons are performed at the same time.\n\nis_greater \u003d three operator two\nprint(is_greater)\n",
+              "placeholders": [
+                {
+                  "offset": 188,
+                  "length": 8,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u003e operator."
+                      ],
+                      "possible_answer": "\u003e",
+                      "placeholder_text": "operator",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:14:50 AM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13419,
+      "update_date": "Aug 10, 2016 1:14:02 PM",
+      "title": "Strings",
+      "task_list": [
+        {
+          "name": "Concatenation",
+          "stepic_id": 98660,
+          "task_files": {
+            "concatenation.py": {
+              "name": "concatenation.py",
+              "text": "hello \u003d \"Hello\"\nworld \u003d \u0027World\u0027\n\nhello_world \u003d type here\nprint(hello_world)      # Note: you should print \"Hello World\"\n",
+              "placeholders": [
+                {
+                  "offset": 47,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use chained concatenation and one-space string \\\" \\\"."
+                      ],
+                      "possible_answer": "hello + \u0027 \u0027 + world",
+                      "placeholder_text": "type here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:18:26 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "String multiplication",
+          "stepic_id": 98661,
+          "task_files": {
+            "string_multiplication.py": {
+              "name": "string_multiplication.py",
+              "text": "hello \u003d \"hello\"\nten_of_hellos \u003d hello operator 10\nprint(ten_of_hellos)\n",
+              "placeholders": [
+                {
+                  "offset": 38,
+                  "length": 8,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use multiplication."
+                      ],
+                      "possible_answer": "*",
+                      "placeholder_text": "operator",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 10, 2016 1:14:02 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "String indexing",
+          "stepic_id": 98662,
+          "task_files": {
+            "string_indexing.py": {
+              "name": "string_indexing.py",
+              "text": "python \u003d \"Python\"\nprint(\"h \" + python[3])     # Note: string indexing starts with 0\n\np_letter \u003d type here\nprint(p_letter)\n",
+              "placeholders": [
+                {
+                  "offset": 96,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Note that index starts with 0."
+                      ],
+                      "possible_answer": "python[0]",
+                      "placeholder_text": "type here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:20:14 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "String negative indexing",
+          "stepic_id": 98663,
+          "task_files": {
+            "negative_indexing.py": {
+              "name": "negative_indexing.py",
+              "text": "long_string \u003d \"This is a very long string!\"\nexclamation \u003d type here\nprint(exclamation)\n",
+              "placeholders": [
+                {
+                  "offset": 58,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use negative index."
+                      ],
+                      "possible_answer": "long_string[-1]",
+                      "placeholder_text": "type here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:21:50 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "String slicing",
+          "stepic_id": 98664,
+          "task_files": {
+            "slicing.py": {
+              "name": "slicing.py",
+              "text": "monty_python \u003d \"Monty Python\"\nmonty \u003d monty_python[:5]      # one or both index could be dropped. monty_python[:5] is equal to monty_python[0:5]\nprint(monty)\npython \u003d type here\nprint(python)\n",
+              "placeholders": [
+                {
+                  "offset": 167,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "You can leave one or both indices empty."
+                      ],
+                      "possible_answer": "monty_python[6:]",
+                      "placeholder_text": "type here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:22:34 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "In operator",
+          "stepic_id": 98665,
+          "task_files": {
+            "in_operator.py": {
+              "name": "in_operator.py",
+              "text": "ice_cream \u003d \"ice cream\"\nprint(\"cream\" in ice_cream)    # print boolean result directly\n\ncontains \u003d type here\nprint(contains)\n",
+              "placeholders": [
+                {
+                  "offset": 99,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027in\u0027 operator."
+                      ],
+                      "possible_answer": "\u0027ice\u0027 in ice_cream",
+                      "placeholder_text": "type here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:25:48 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "String length",
+          "stepic_id": 98666,
+          "task_files": {
+            "len_function.py": {
+              "name": "len_function.py",
+              "text": "phrase \u003d \"\"\"\nIt is a really long string\ntriple-quoted strings are used\nto define multi-line strings\n\"\"\"\nfirst_half \u003d type here\nprint(first_half)\n",
+              "placeholders": [
+                {
+                  "offset": 117,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Remember about string slicing."
+                      ],
+                      "possible_answer": "phrase[:int(len(phrase)/2)]",
+                      "placeholder_text": "type here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:26:22 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Character escaping",
+          "stepic_id": 98667,
+          "task_files": {
+            "character_escaping.py": {
+              "name": "character_escaping.py",
+              "text": "dont_worry \u003d \"Don\u0027t worry about apostrophes\"\nprint(dont_worry)\nprint(\"\\\"Sweet\\\" is an ice-cream\")\nprint(\u0027text\u0027)\n",
+              "placeholders": [
+                {
+                  "offset": 105,
+                  "length": 4,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use backslash \\\\ to escape quotes."
+                      ],
+                      "possible_answer": "The name of this ice-cream is \"Sweet\\\u0027n\\\u0027Tasty\"",
+                      "placeholder_text": "text",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 2:00:53 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Basic string methods",
+          "stepic_id": 98668,
+          "task_files": {
+            "string_methods.py": {
+              "name": "string_methods.py",
+              "text": "monty_python \u003d \"Monty Python\"\nprint(monty_python)\n\nprint(monty_python.lower())    # print lower-cased version of the string\n\nprint(upper cased monty_python)\n",
+              "placeholders": [
+                {
+                  "offset": 131,
+                  "length": 24,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Look at the lower() method usage."
+                      ],
+                      "possible_answer": "monty_python.upper()",
+                      "placeholder_text": "upper cased monty_python",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:28:19 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "String formatting",
+          "stepic_id": 98669,
+          "task_files": {
+            "string_formatting.py": {
+              "name": "string_formatting.py",
+              "text": "name \u003d \"John\"\nprint(\"Hello, PyCharm! My name is %s!\" % name)     # Note: %s is inside the string, % is after the string\n\nprint(\"I\u0027m special symbol years old\" % years)\n",
+              "placeholders": [
+                {
+                  "offset": 132,
+                  "length": 14,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use %d special symbol."
+                      ],
+                      "possible_answer": "%d",
+                      "placeholder_text": "special symbol",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 160,
+                  "length": 5,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "How old are you?"
+                      ],
+                      "possible_answer": "17",
+                      "placeholder_text": "years",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:28:56 AM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13420,
+      "update_date": "Aug 3, 2016 11:47:11 AM",
+      "title": "Data structures",
+      "task_list": [
+        {
+          "name": "Lists introduction",
+          "stepic_id": 98678,
+          "task_files": {
+            "lists.py": {
+              "name": "lists.py",
+              "text": "squares \u003d [1, 4, 9, 16, 25]   # create new list\nprint(squares)\n\nprint(slice)\n",
+              "placeholders": [
+                {
+                  "offset": 70,
+                  "length": 5,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use list slicing lst[index1:index2]"
+                      ],
+                      "possible_answer": "squares[1:4]",
+                      "placeholder_text": "slice",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:43:25 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Lists operations",
+          "stepic_id": 98679,
+          "task_files": {
+            "list_operations.py": {
+              "name": "list_operations.py",
+              "text": "animals \u003d [\u0027elephant\u0027, \u0027lion\u0027, \u0027tiger\u0027, \"giraffe\"]  # create new list\nprint(animals)\n\nanimals +\u003d [\"monkey\", \u0027dog\u0027]    # add two items to the list\nprint(animals)\n\nanimals.append(\"dino\")   # add one more item to the list using append() method\nprint(animals)\n\nreplace \u0027dino\u0027 with \u0027dinosaur\u0027\nprint(animals)\n",
+              "placeholders": [
+                {
+                  "offset": 257,
+                  "length": 30,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use indexing operation and assignment."
+                      ],
+                      "possible_answer": "animals[-1] \u003d \u0027dinosaur\u0027",
+                      "placeholder_text": "replace \u0027dino\u0027 with \u0027dinosaur\u0027",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:44:23 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "List items",
+          "stepic_id": 98680,
+          "task_files": {
+            "list_items.py": {
+              "name": "list_items.py",
+              "text": "animals \u003d [\u0027elephant\u0027, \u0027lion\u0027, \u0027tiger\u0027, \"giraffe\", \"monkey\", \u0027dog\u0027]   # create new list\nprint(animals)\n\nanimals[1:3] \u003d [\u0027cat\u0027]    # replace 2 items -- \u0027lion\u0027 and \u0027tiger\u0027 with one item -- \u0027cat\u0027\nprint(animals)\n\nanimals[1:3] \u003d []     # remove 2 items -- \u0027cat\u0027 and \u0027giraffe\u0027 from the list\nprint(animals)\n\nclear list\nprint(animals)\n",
+              "placeholders": [
+                {
+                  "offset": 301,
+                  "length": 10,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use assignment to an empty list []."
+                      ],
+                      "possible_answer": "animals[:] \u003d []",
+                      "placeholder_text": "clear list",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:44:45 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Tuples",
+          "stepic_id": 98681,
+          "task_files": {
+            "tuples.py": {
+              "name": "tuples.py",
+              "text": "alphabet \u003d (\u0027a\u0027, \u0027b\u0027, \u0027c\u0027, \u0027d\u0027, \u0027e\u0027, \u0027f\u0027, \u0027g\u0027, \u0027h\u0027, \u0027i\u0027, \u0027j\u0027, \u0027k\u0027, \u0027l\u0027, \u0027m\u0027, \u0027n\u0027, \u0027o\u0027,\n            \u0027p\u0027, \u0027q\u0027, \u0027r\u0027, \u0027s\u0027, \u0027t\u0027, \u0027u\u0027, \u0027v\u0027, \u0027w\u0027, \u0027x\u0027, \u0027y\u0027, \u0027z\u0027)\n\nprint(alphabet length)\n",
+              "placeholders": [
+                {
+                  "offset": 161,
+                  "length": 15,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use len() function."
+                      ],
+                      "possible_answer": "len(alphabet)",
+                      "placeholder_text": "alphabet length",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:45:23 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Dictionaries",
+          "stepic_id": 98682,
+          "task_files": {
+            "dicts.py": {
+              "name": "dicts.py",
+              "text": "# create new dictionary.\nphone_book \u003d {\"John\": 123, \"Jane\": 234, \"Jerard\": 345}    # \"John\", \"Jane\" and \"Jerard\" are keys and numbers are values\nprint(phone_book)\n\n# Add new item to the dictionary\nphone_book[\"Jill\"] \u003d 345\nprint(phone_book)\n\n# Remove key-value pair from phone_book\ndel phone_book[\u0027John\u0027]\n\nprint(Jane\u0027s phone)\n",
+              "placeholders": [
+                {
+                  "offset": 311,
+                  "length": 12,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use dict indexing e.g. dct[key]"
+                      ],
+                      "possible_answer": "phone_book[\u0027Jane\u0027]",
+                      "placeholder_text": "Jane\u0027s phone",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:45:57 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Dictionary keys() and values()",
+          "stepic_id": 98683,
+          "task_files": {
+            "dict_key_value.py": {
+              "name": "dict_key_value.py",
+              "text": "phone_book \u003d {\"John\": 123, \"Jane\": 234, \"Jerard\": 345}  # create new dictionary\nprint(phone_book)\n\n# Add new item to the dictionary\nphone_book[\"Jill\"] \u003d 456\nprint(phone_book)\n\nprint(phone_book.keys())\n\nprint(phone_book values)\n",
+              "placeholders": [
+                {
+                  "offset": 208,
+                  "length": 17,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use values() method."
+                      ],
+                      "possible_answer": "phone_book.values()",
+                      "placeholder_text": "phone_book values",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:46:34 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "In keyword",
+          "stepic_id": 98684,
+          "task_files": {
+            "in_keyword.py": {
+              "name": "in_keyword.py",
+              "text": "grocery_list \u003d [\"fish\", \"tomato\", \u0027apples\u0027]   # create new list\n\nprint(\"tomato\" in grocery_list)    # check that grocery_list contains \"tomato\" item\n\ngrocery_dict \u003d {\"fish\": 1, \"tomato\": 6, \u0027apples\u0027: 3}   # create new dictionary\n\nprint(is \u0027fish\u0027 in grocery_dict keys)\n",
+              "placeholders": [
+                {
+                  "offset": 236,
+                  "length": 30,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use in keyword."
+                      ],
+                      "possible_answer": "\u0027fish\u0027 in grocery_dict.keys()",
+                      "placeholder_text": "is \u0027fish\u0027 in grocery_dict keys",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:47:11 AM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13422,
+      "update_date": "Aug 3, 2016 11:52:15 AM",
+      "title": "Condition expressions",
+      "task_list": [
+        {
+          "name": "Boolean operators",
+          "stepic_id": 98685,
+          "task_files": {
+            "boolean_operators.py": {
+              "name": "boolean_operators.py",
+              "text": "name \u003d \"John\"\nage \u003d 17\n\nprint(name \u003d\u003d \"John\" or age \u003d\u003d 17)    # checks that either name equals to \"John\" OR age equals to 17\n\nprint(John is not 23 years old)\n",
+              "placeholders": [
+                {
+                  "offset": 132,
+                  "length": 24,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use and keyword and !\u003d operator."
+                      ],
+                      "possible_answer": "name \u003d\u003d \u0027John\u0027 and age !\u003d 23",
+                      "placeholder_text": "John is not 23 years old",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:49:20 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Boolean operators order",
+          "stepic_id": 98686,
+          "task_files": {
+            "boolean_order.py": {
+              "name": "boolean_order.py",
+              "text": "name \u003d \"John\"\nage \u003d 17\n\nprint(name \u003d\u003d \"John\" or not age \u003e 17)\n\nprint(name \u003d\u003d \"John\" or not age \u003e 17)\n\nprint(\"name\" is \"Ellis\" or not (\"name\" equal \"John\" and he is 17 years old))\n",
+              "placeholders": [
+                {
+                  "offset": 108,
+                  "length": 69,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Combine \u0027and\u0027, \u0027or\u0027 and \u0027not\u0027 keywords."
+                      ],
+                      "possible_answer": "name is \"Ellis\" or not (name is \"John\" and age \u003d\u003d 17)",
+                      "placeholder_text": "\"name\" is \"Ellis\" or not (\"name\" equal \"John\" and he is 17 years old)",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:50:58 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "If statement",
+          "stepic_id": 98687,
+          "task_files": {
+            "if_statement.py": {
+              "name": "if_statement.py",
+              "text": "name \u003d \"John\"\nage \u003d 17\n\nif name \u003d\u003d \"John\" or age \u003d\u003d 17:   # check that name is \"John\" or age is 17. If so print next 2 lines.\n    print(\"name is John\")\n    print(\"John is 17 years old\")\n\ntasks \u003d [\u0027task1\u0027, \u0027task2\u0027]    # create new list\n\ncheck if \u0027tasks\u0027 is empty\n    print(\"empty\")\n",
+              "placeholders": [
+                {
+                  "offset": 236,
+                  "length": 25,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use len function to check if tasks is empty."
+                      ],
+                      "possible_answer": "if len(tasks) \u003d\u003d 0:",
+                      "placeholder_text": "check if \u0027tasks\u0027 is empty",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:51:32 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Else, elif part in if statement",
+          "stepic_id": 98688,
+          "task_files": {
+            "else_elif.py": {
+              "name": "else_elif.py",
+              "text": "x \u003d 28\n\nif x \u003c 0:\n    print(\u0027x \u003c 0\u0027)                      # executes only if x \u003c 0\nelif x \u003d\u003d 0:\n    print(\u0027x is zero\u0027)                 # if it\u0027s not true that x \u003c 0, check if x \u003d\u003d 0\nelif x \u003d\u003d 1:\n    print(\u0027x \u003d\u003d 1\u0027)                    # if it\u0027s not true that x \u003c 0 and x !\u003d 0, check if x \u003d\u003d 1\nelse:\n    print(\u0027non of the above is true\u0027)\n\nname \u003d \"John\"\n\ncheck if name equal to \"John\"\n    print(True)\notherwise\n    print(False)\n",
+              "placeholders": [
+                {
+                  "offset": 352,
+                  "length": 29,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use if keyword and \u003d\u003d operator."
+                      ],
+                      "possible_answer": "if name \u003d\u003d \u0027John\u0027:",
+                      "placeholder_text": "check if name equal to \"John\"",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 398,
+                  "length": 9,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use else keyword."
+                      ],
+                      "possible_answer": "else:",
+                      "placeholder_text": "otherwise",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:52:15 AM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13423,
+      "update_date": "Aug 3, 2016 12:07:20 PM",
+      "title": "Loops",
+      "task_list": [
+        {
+          "name": "For loop",
+          "stepic_id": 98707,
+          "task_files": {
+            "for_loop.py": {
+              "name": "for_loop.py",
+              "text": "for i in range(5):    # for each number i in range 0-4. range(5) function returns list [0, 1, 2, 3, 4]\n    print(i)          # this line is executed 5 times. First time i equals 0, then 1, ...\n\n\nprimes \u003d [2, 3, 5, 7]   # create new list\n\niterate over primes using for loop\n    print(prime)\n",
+              "placeholders": [
+                {
+                  "offset": 238,
+                  "length": 34,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use for loop to iterate over \u0027primes\u0027."
+                      ],
+                      "possible_answer": "for prime in primes:",
+                      "placeholder_text": "iterate over primes using for loop",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:54:04 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "For loop using string",
+          "stepic_id": 98708,
+          "task_files": {
+            "for_string.py": {
+              "name": "for_string.py",
+              "text": "hello_world \u003d \"Hello, World!\"\n\nfor ch in hello_world:    # print each character from hello_world\n    print(ch)\n\nlength \u003d 0      # initialize length variable\n\ncount how many characters are in the hello_world using loop\n    length +\u003d 1     # add 1 to the length on each iteration\n\nprint(len(hello_world) \u003d\u003d length)\n",
+              "placeholders": [
+                {
+                  "offset": 158,
+                  "length": 59,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use for loop to iterate over \u0027hello_world\u0027 string."
+                      ],
+                      "possible_answer": "for ch in hello_world:",
+                      "placeholder_text": "count how many characters are in the hello_world using loop",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:54:47 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "While loop",
+          "stepic_id": 98709,
+          "task_files": {
+            "while_loop.py": {
+              "name": "while_loop.py",
+              "text": "square \u003d 1\n\nwhile square \u003c\u003d 10:\n    print(square)    # This code is executed 10 times\n    square +\u003d 1      # This code is executed 10 times\n\nprint(\"Finished\")  # This code is executed once\n\nsquare \u003d 0\nnumber \u003d 1\n\nprint all squares from 0 to 99\n    square \u003d number ** 2\n    print(square)\n    number +\u003d 1\n",
+              "placeholders": [
+                {
+                  "offset": 213,
+                  "length": 30,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Check if \u0027number\u0027 is strictly less than 10 in condition."
+                      ],
+                      "possible_answer": "while square \u003c 81:",
+                      "placeholder_text": "print all squares from 0 to 99",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:07:20 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Break keyword",
+          "stepic_id": 98710,
+          "task_files": {
+            "break_keyword.py": {
+              "name": "break_keyword.py",
+              "text": "count \u003d 0\n\nwhile True:  # this condition cannot possibly be false\n    print(count)\n    count +\u003d 1\n    if count \u003e\u003d 5:\n        break           # exit loop if count \u003e\u003d 5\n\n\nzoo \u003d [\"lion\", \u0027tiger\u0027, \u0027elephant\u0027]\nwhile True:                         # this condition cannot possibly be false\n    animal \u003d zoo.pop()       # extract one element from the list end\n    print(animal)\n    if exit loop if animal is \u0027elephant\u0027:\n        break           # exit loop\n",
+              "placeholders": [
+                {
+                  "offset": 377,
+                  "length": 33,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u003d\u003d to check if animal is equal to \u0027elephant\u0027."
+                      ],
+                      "possible_answer": "animal \u003d\u003d \u0027elephant\u0027",
+                      "placeholder_text": "exit loop if animal is \u0027elephant\u0027",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:55:55 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Continue keyword",
+          "stepic_id": 98711,
+          "task_files": {
+            "continue_keyword.py": {
+              "name": "continue_keyword.py",
+              "text": "for i in range(5):\n    if i \u003d\u003d 3:\n        continue   # skip the rest of the code inside loop for current i value\n    print(i)\n\nfor x in range(10):\n    if Check if x is even:\n        continue   # skip print(x) for this loop\n    print(x)\n",
+              "placeholders": [
+                {
+                  "offset": 154,
+                  "length": 18,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use % operator to check if x is even."
+                      ],
+                      "possible_answer": "x % 2 \u003d\u003d 0",
+                      "placeholder_text": "Check if x is even",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:56:30 AM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13424,
+      "update_date": "Aug 3, 2016 2:11:56 PM",
+      "title": "Functions",
+      "task_list": [
+        {
+          "name": "Definition",
+          "stepic_id": 98712,
+          "task_files": {
+            "functions.py": {
+              "name": "functions.py",
+              "text": "def hello_world():  # function named my_function\n    print(\"Hello, World!\")\n\nfor i in range(5):\n    hello_world()   # call function defined above 5 times\n\nprint(\u0027I want to be a function\u0027)\nprint(\u0027I want to be a function\u0027)\nprint(\u0027I want to be a function\u0027)\n\n\ndefine a function named \u0027fun\u0027 to replace three lines above\n    print(\u0027I want to be a function\u0027)\n\nfor i in range(3):\n    fun()\n",
+              "placeholders": [
+                {
+                  "offset": 256,
+                  "length": 58,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027def\u0027 keyword to define \u0027fun\u0027 function."
+                      ],
+                      "possible_answer": "def fun():",
+                      "placeholder_text": "define a function named \u0027fun\u0027 to replace three lines above",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:57:54 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Parameters and call arguments",
+          "stepic_id": 98713,
+          "task_files": {
+            "param_args.py": {
+              "name": "param_args.py",
+              "text": "def foo(x):                 # x is a function parameter\n    print(\"x \u003d \" + str(x))\n\nfoo(5)   # pass 5 to foo(). Here 5 is an argument passed to function foo.\n\ndefine a function named \u0027square\u0027 that prints square of passed parameter\n    print(x ** 2)\n\nsquare(4)\nsquare(8)\nsquare(15)\nsquare(23)\nsquare(42)\n",
+              "placeholders": [
+                {
+                  "offset": 159,
+                  "length": 71,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Put parameter \u0027x\u0027 inside parentheses in function definition."
+                      ],
+                      "possible_answer": "def square(x):",
+                      "placeholder_text": "define a function named \u0027square\u0027 that prints square of passed parameter",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 11:58:11 AM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Return value",
+          "stepic_id": 98714,
+          "task_files": {
+            "return_keyword.py": {
+              "name": "return_keyword.py",
+              "text": "def sum_two_numbers(a, b):\n    return a + b            # return result to the function caller\n\nc \u003d sum_two_numbers(3, 12)  # assign result of function execution to variable \u0027c\u0027\n\n\ndef fib(n):\n    \"\"\"This is documentation string for function. It\u0027ll be available by fib.__doc__()\n    Return a list containing the Fibonacci series up to n.\"\"\"\n    result \u003d []\n    a \u003d 1\n    b \u003d initialize variable b\n    while a \u003c n:\n        result.append(a)\n        tmp_var \u003d b\n        update variable b\n        update variable a\n    return result\n\nprint(fib(10))\n",
+              "placeholders": [
+                {
+                  "offset": 373,
+                  "length": 21,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Initialize \u0027b\u0027 with 1."
+                      ],
+                      "possible_answer": "1",
+                      "placeholder_text": "initialize variable b",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 465,
+                  "length": 17,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Update \u0027b\u0027 with \u0027a + b\u0027."
+                      ],
+                      "possible_answer": "b \u003d a + b",
+                      "placeholder_text": "update variable b",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 491,
+                  "length": 17,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Update \u0027a\u0027 with \u0027tmp_var\u0027."
+                      ],
+                      "possible_answer": "a \u003d tmp_var",
+                      "placeholder_text": "update variable a",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 2:11:56 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Default parameters",
+          "stepic_id": 98715,
+          "task_files": {
+            "default_parameter.py": {
+              "name": "default_parameter.py",
+              "text": "def multiply_by(a, b\u003d2):\n    return a * b\n\nprint(multiply_by(3, 47))\nprint(multiply_by(3))    # call function using default value for b parameter\n\n\ndef hello(add parameters for function, set default value for name):\n    print(\"Hello %s! My name is %s\" % (subject, name))\n\nhello(\"PyCharm\", \"Jane\")    # call \u0027hello\u0027 function with \"PyCharm as a subject parameter and \"Jane\" as a name\nhello(\"PyCharm\")            # call \u0027hello\u0027 function with \"PyCharm as a subject parameter and default value for the name\n",
+              "placeholders": [
+                {
+                  "offset": 158,
+                  "length": 55,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Set default value for parameter \u0027name\u0027."
+                      ],
+                      "possible_answer": "subject, name\u003d\u0027John\u0027",
+                      "placeholder_text": "add parameters for function, set default value for name",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:01:17 PM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13425,
+      "update_date": "Aug 3, 2016 12:05:58 PM",
+      "title": "Classes and objects",
+      "task_list": [
+        {
+          "name": "Definition",
+          "stepic_id": 98725,
+          "task_files": {
+            "class_definition.py": {
+              "name": "class_definition.py",
+              "text": "class MyClass:\n    variable \u003d assign any value to variable\n\n    def foo(self):   # we\u0027ll explain self parameter later in task 4\n        print(\"Hello from function foo\")\n\nmy_object \u003d MyClass()  # variable \"my_object\" holds an object of the class \"MyClass\" that contains the variable and the \"foo\" function\n",
+              "placeholders": [
+                {
+                  "offset": 30,
+                  "length": 28,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Assign any value to variable."
+                      ],
+                      "possible_answer": "4",
+                      "placeholder_text": "assign any value to variable",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:01:53 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Variable access",
+          "stepic_id": 98726,
+          "task_files": {
+            "access_variable.py": {
+              "name": "access_variable.py",
+              "text": "class MyClass:\n    variable1 \u003d 1\n    variable2 \u003d 2\n\n    def foo(self):     # we\u0027ll explain self parameter later in task 4\n        print(\"Hello from function foo\")\n\nmy_object \u003d MyClass()\nmy_object1 \u003d MyClass()\n\nmy_object.variable2 \u003d 3     # change value stored in variable2 in my_object\n\nprint(my_object.variable2)\nprint(my_object1.variable2)\n\nmy_object.foo()   # call method foo() of object my_object\n\nprint(value of variable1 from my_object)\n\n",
+              "placeholders": [
+                {
+                  "offset": 408,
+                  "length": 33,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Access \u0027variable1\u0027 using my_object.variable1"
+                      ],
+                      "possible_answer": "my_object.variable1",
+                      "placeholder_text": "value of variable1 from my_object",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:02:27 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Variable access",
+          "stepic_id": 98727,
+          "task_files": {
+            "access_variable.py": {
+              "name": "access_variable.py",
+              "text": "class Car:\n    color \u003d \"\"\n    def description(self):\n        description_string \u003d \"This is a %s car.\" % self.color    # we\u0027ll explain self parameter later in task 4\n        return description_string\n\ncar1 \u003d Car()\ncar2 \u003d create object of Car\n\ncar1.color \u003d \"blue\"\nset car2 color\n\nprint(car1.description())\nprint(car2.description())\n",
+              "placeholders": [
+                {
+                  "offset": 220,
+                  "length": 20,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Create new car using Car()"
+                      ],
+                      "possible_answer": "Car()",
+                      "placeholder_text": "create object of Car",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 262,
+                  "length": 14,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Change color using car2.color \u003d \"new color\"."
+                      ],
+                      "possible_answer": "car2.color \u003d \"red\"",
+                      "placeholder_text": "set car2 color",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:03:23 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Self explanation",
+          "stepic_id": 98728,
+          "task_files": {
+            "self_parameter.py": {
+              "name": "self_parameter.py",
+              "text": "class Complex:\n    def create(self, real_part, imag_part):\n        self.r \u003d real_part\n        self.i \u003d imag_part\n\nclass Calculator:\n    current \u003d 0\n\n    def add(self, amount):\n        add number to current\n\n    def get_current(self):\n        return self.current\n",
+              "placeholders": [
+                {
+                  "offset": 184,
+                  "length": 21,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Add amount to the self.current variable."
+                      ],
+                      "possible_answer": "self.current +\u003d amount",
+                      "placeholder_text": "add number to current",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:04:44 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Special __init__ method",
+          "stepic_id": 98729,
+          "task_files": {
+            "init_method.py": {
+              "name": "init_method.py",
+              "text": "class Square:\n\n    def __init__(self):    # special method __init__\n        self.sides \u003d 4\n\nsquare \u003d Square()\nprint(square.sides)\n\nclass Car:\n    def __init__(add parameters here):\n        self.color \u003d color\n\ncar \u003d Car(\"blue\")    # Note: you should not pass self parameter explicitly, only color parameter\n\nprint(car.color)\n",
+              "placeholders": [
+                {
+                  "offset": 159,
+                  "length": 19,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Add two parameters -- self and color."
+                      ],
+                      "possible_answer": "self, color",
+                      "placeholder_text": "add parameters here",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:05:58 PM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13427,
+      "update_date": "Aug 3, 2016 12:30:41 PM",
+      "title": "Modules and packages",
+      "task_list": [
+        {
+          "name": "Import module",
+          "stepic_id": 98730,
+          "task_files": {
+            "my_module.py": {
+              "name": "my_module.py",
+              "text": "\"\"\" documentation string for module my_module\nThis module contains hello_world function\n\"\"\"\n\n\ndef hello_world(name):\n    print(\"Hello, World! My name is %s\" % name)",
+              "placeholders": []
+            },
+            "imports.py": {
+              "name": "imports.py",
+              "text": "\nimport calculator\n\ncalc \u003d calculator.Calculator()    # create new instance of Calculator class defined in calculator module\ncalc.add(2)\nprint(calc.get_current())\n\nhere import my_module\n\ncall function hello_world from my_module\n",
+              "placeholders": [
+                {
+                  "offset": 164,
+                  "length": 21,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027import\u0027 keyword and my_module reference."
+                      ],
+                      "possible_answer": "import my_module",
+                      "placeholder_text": "here import my_module",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 187,
+                  "length": 40,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Access \u0027hello_world\u0027 function from module \u0027my_module\u0027 as my_module.hello_world()"
+                      ],
+                      "possible_answer": "my_module.hello_world(\u0027John\u0027)",
+                      "placeholder_text": "call function hello_world from my_module",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            },
+            "calculator.py": {
+              "name": "calculator.py",
+              "text": "\"\"\"\nThis module contains Calculator class\n\"\"\"\n\n\nclass Calculator:\n    def __init__(self):\n        self.current \u003d 0\n\n    def add(self, amount):\n        self.current +\u003d amount\n\n    def get_current(self):\n        return self.current",
+              "placeholders": []
+            }
+          },
+          "update_date": "Aug 3, 2016 12:10:08 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Builtin modules",
+          "stepic_id": 98731,
+          "task_files": {
+            "builtin_modules.py": {
+              "name": "builtin_modules.py",
+              "text": "import datetime\n\nprint(current date)\n",
+              "placeholders": [
+                {
+                  "offset": 23,
+                  "length": 12,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use datetime.datetime.today() function."
+                      ],
+                      "possible_answer": "datetime.datetime.today()",
+                      "placeholder_text": "current date",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:30:41 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "From import",
+          "stepic_id": 98732,
+          "task_files": {
+            "my_module.py": {
+              "name": "my_module.py",
+              "text": "\"\"\" documentation string for module my_module\nThis module contains hello_world function\n\"\"\"\n\n\ndef hello_world():\n    return \"Hello, World!\"",
+              "placeholders": []
+            },
+            "calculator.py": {
+              "name": "calculator.py",
+              "text": "\"\"\"\nThis module contains Calculator class\n\"\"\"\n\n\nclass Calculator:\n    def __init__(self):\n        self.current \u003d 0\n\n    def add(self, amount):\n        self.current +\u003d amount\n\n    def get_current(self):\n        return self.current",
+              "placeholders": []
+            },
+            "from_import.py": {
+              "name": "from_import.py",
+              "text": "\nfrom calculator import Calculator\n\ncalc \u003d Calculator()    # here we can use Calculator class directly without prefix calculator.\ncalc.add(2)\nprint(calc.get_current())\n\nimport hello_world from my_module\n\nprint(hello_world())    # Note: hello_world function used without prefix\n",
+              "placeholders": [
+                {
+                  "offset": 169,
+                  "length": 33,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027from my_module import hello_world\u0027"
+                      ],
+                      "possible_answer": "from my_module import hello_world",
+                      "placeholder_text": "import hello_world from my_module",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:15:24 PM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 13428,
+      "update_date": "Aug 3, 2016 12:17:44 PM",
+      "title": "File input/output",
+      "task_list": [
+        {
+          "name": "Read file",
+          "stepic_id": 98733,
+          "task_files": {
+            "input.txt": {
+              "name": "input.txt",
+              "text": "I am a temporary file. Maybe someday, I\u0027ll become a real file.",
+              "placeholders": []
+            },
+            "input1.txt": {
+              "name": "input1.txt",
+              "text": "My first line\nMy second line\nMy third line",
+              "placeholders": []
+            },
+            "read_file.py": {
+              "name": "read_file.py",
+              "text": "\nf \u003d open(\"input.txt\", \"r\")   # here we open file \"input.txt\". Second argument used to identify that we want to read file\n                             # Note: if you want to write to the file use \"w\" as second argument\n\nfor line in f.readlines():   # read lines\n    print each line\n\nf.close()                   # It\u0027s important to close the file to free up any system resources.\n\nf1 \u003d open(\"input1.txt\", \"r\")\n\nprint only first line of f1\n\ndo not forget to close file\n",
+              "placeholders": [
+                {
+                  "offset": 266,
+                  "length": 15,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use print function."
+                      ],
+                      "possible_answer": "print(line)",
+                      "placeholder_text": "print each line",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 410,
+                  "length": 27,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027readline\u0027 method."
+                      ],
+                      "possible_answer": "print(f1.readline())",
+                      "placeholder_text": "print only first line of f1",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 439,
+                  "length": 27,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use f1.close() method."
+                      ],
+                      "possible_answer": "f1.close()",
+                      "placeholder_text": "do not forget to close file",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:17:06 PM",
+          "myLastSubtaskIndex": 0
+        },
+        {
+          "name": "Write to file",
+          "stepic_id": 98734,
+          "task_files": {
+            "output.txt": {
+              "name": "output.txt",
+              "text": "This is output file.\n",
+              "placeholders": []
+            },
+            "write_to_file.py": {
+              "name": "write_to_file.py",
+              "text": "zoo \u003d [\u0027lion\u0027, \"elephant\", \u0027monkey\u0027]\n\nif __name__ \u003d\u003d \"__main__\":\n    f \u003d open(\"output.txt\", add modifier)\n\n    for i in zoo:\n        add the whole zoo to the output.txt\n\n    close the file\n",
+              "placeholders": [
+                {
+                  "offset": 92,
+                  "length": 12,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027a\u0027 modifier to append lines to the end of file."
+                      ],
+                      "possible_answer": "\u0027a\u0027",
+                      "placeholder_text": "add modifier",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 133,
+                  "length": 35,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Use \u0027write\u0027 method."
+                      ],
+                      "possible_answer": "f.write(i)",
+                      "placeholder_text": "add the whole zoo to the output.txt",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                },
+                {
+                  "offset": 174,
+                  "length": 14,
+                  "subtask_infos": {
+                    "0": {
+                      "hints": [
+                        "Call f.close method."
+                      ],
+                      "possible_answer": "f.close()",
+                      "placeholder_text": "close the file",
+                      "has_frame": true,
+                      "need_insert_text": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "update_date": "Aug 3, 2016 12:17:44 PM",
+          "myLastSubtaskIndex": 0
+        }
+      ]
+    }
+  ],
+  "authors": [],
+  "description": "Introduction course to Python",
+  "name": "Introduction to Python",
+  "id": 238,
+  "update_date": "Aug 10, 2016 1:14:02 PM",
+  "isAdaptive": false,
+  "language": "Python"
+}
